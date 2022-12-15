@@ -2,9 +2,9 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Scanner;
 
-class NewsPaper{
+class NewsPaper {
     public String name;
-    public double pM,pT,pW,pTh,pF,pS,pSun,sum=0;
+    public double pM, pT, pW, pTh, pF, pS, pSun, sum = 0;
 
     public NewsPaper(String name, double pM, double pT, double pW, double pTh, double pF, double pS, double pSun) {
         this.name = name;
@@ -15,75 +15,10 @@ class NewsPaper{
         this.pF = pF;
         this.pS = pS;
         this.pSun = pSun;
-        this.sum = pM+pT+pW+pTh+pF+pS+pSun;
+        this.sum = pM + pT + pW + pTh + pF + pS + pSun;
     }
 
-    public NewsPaper() {
-    }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public double getpM() {
-        return pM;
-    }
-
-    public void setpM(double pM) {
-        this.pM = pM;
-    }
-
-    public double getpT() {
-        return pT;
-    }
-
-    public void setpT(double pT) {
-        this.pT = pT;
-    }
-
-    public double getpW() {
-        return pW;
-    }
-
-    public void setpW(double pW) {
-        this.pW = pW;
-    }
-
-    public double getpTh() {
-        return pTh;
-    }
-
-    public void setpTh(double pTh) {
-        this.pTh = pTh;
-    }
-
-    public double getpF() {
-        return pF;
-    }
-
-    public void setpF(double pF) {
-        this.pF = pF;
-    }
-
-    public double getpS() {
-        return pS;
-    }
-
-    public void setpS(double pS) {
-        this.pS = pS;
-    }
-
-    public double getpSun() {
-        return pSun;
-    }
-
-    public void setpSun(double pSun) {
-        this.pSun = pSun;
-    }
 }
 public class Main {
     static Scanner sc = new Scanner(System.in);
